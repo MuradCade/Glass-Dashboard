@@ -1,0 +1,194 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: teal;
+    overflow:none;
+  
+}
+
+.box{
+    
+    border: 20px;
+    min-height: 80vh;
+    width: 700px;
+    background-color: rgba(255, 255, 255, 0.555);
+    position: relative;
+    left: 25%;
+    top: 80px;
+    border-radius: 20px;
+    
+    
+}
+
+.circle1{
+    border: 20px;
+    min-height: 22vh;
+    width: 160px;
+    background-color: rgb(18, 204, 173);
+    position: relative;
+    bottom: 20px;
+    left: 18%;
+    border-radius: 90px;
+    z-index: -1;
+    filter: blur(2px);
+}
+
+.circle2{
+    border: 20px;
+    min-height: 22vh;
+    width: 160px;
+    background-color:rgb(18, 204, 173);
+    position: relative;
+    bottom: 690px;
+    left: 70%;
+    border-radius: 90px;
+    z-index: -1;
+    filter: blur(2px);
+}
+.line1{
+    border-left: 6px solid rgb(66, 100, 109);
+    height: 550px;
+    position: relative;
+    bottom: 780px;
+    left: 35%;
+    box-shadow: blue;
+   
+}
+
+.info{
+    position: relative;
+    bottom: 1310px;
+    left: 360px;
+    image-rendering: crisp-edges;
+
+}
+.pics{
+    width: 80px;
+    height: 25%;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.897);
+    color: none;
+}
+img{
+    width: 80px;
+    height: 25%;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.897);
+    color: none;
+}
+h4{
+    position: relative;
+    left: 1px;
+    font-family: 'Lucida Sans', sans-serif;
+}
+h2{
+    position: relative;
+    top: 10px;
+     text-align: center;
+     font-family: 'Lucida Sans', sans-serif;
+     left: 10%;
+}
+
+
+img{
+    width: 40px;
+    height: 20%;
+    left: 10px;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.a{
+    position: relative;
+    top: 4vh;
+}
+.b{
+    position: relative;
+    top: 6vh;
+}
+
+.c{
+    position: relative;
+    top: 8vh;
+}
+
+.d{
+    position: relative;
+    top: 11vh;
+}
+
+.e{
+    position: relative;
+    top: 14vh;
+}
+
+.card1{
+   
+    width: 450px;
+    height: 200px;
+    background-color:rgba(77, 116, 15, 0.705);
+    position: relative;
+    left: 200px;
+    top: 40px;
+    border-radius: 10px;
+}
+
+.card2{
+    width: 450px;
+    height: 200px;
+    background-color: #a76f0973;
+    position: relative;
+    left: 200px;
+    top: 80px;    
+    border-radius: 10px;
+}
+
+.pic1{
+    position: relative;
+    width: 200px;
+    height: 150px;
+    top: 15px;
+}
+.txt1{
+    position: relative;
+    top: 20px;
+    left: 60px;
+}
+.percent1{
+    position: relative;
+    height: 10%;
+    width:258px;
+    background-color: green;
+    left: 36%;
+}
+
+.pic2{
+    position: relative;
+    width: 200px;
+    height: 150px;
+    top: 15px;
+}
+.txt2{
+    position: relative;
+    top: 20px;
+    left: 60px;
+}
+
+.percent2{
+    position: relative;
+    height: 10%;
+    width:258px;
+    background-color: green;
+    left: 36%;
+    
+}
+
+.box,body{
+    overflow: hidden;
+}
